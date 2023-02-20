@@ -1,36 +1,31 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
- * main -program that print all possible combination
+ * main - entry point
  * Return: 0 (success)
  */
 int main(void)
 {
-	int c;
+	int c, d;
 
-	int d = 0;
-
-	while (d < 10)
+	for (c = 0; c <= 9; c++)
 	{
-		c = 0;
-		while (c < 10)
+		for (d = c + 1; d <= 9; d++)
 		{
-			if(d != c && d < c)
-                	{
-                        putchar('0' + d);
-                        putchar('0' + c);
-                        	if (c+d != 17)
-                        	{
-
-                                putchar(',');
-                                putchar(' ');
-                        	}
+		if (c != d)
+		{
+		putchar(c);
+		putchar(d);
+			if (c == 8; &&d == 9)
+			{
+			continue;
+			putchar(',');
+			putchar(' ');
 			}
-			c++;
 		}
-		d++;
-           
+		}
 	}
 	putchar('\n');
 	return (0);
-
 }
