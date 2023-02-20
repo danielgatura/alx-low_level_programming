@@ -21,10 +21,10 @@ int main(void)
 					putchar(d);
 					putchar(b);
 					if (c == '8' && d == '9')
-					{
+					continue;
 					putchar(',');
 					putchar(' ');
-					}
+					
 				}
 			}
 		}
