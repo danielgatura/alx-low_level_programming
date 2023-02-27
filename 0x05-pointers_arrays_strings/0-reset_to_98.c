@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  *reset_to_98 -function that takes to an int
