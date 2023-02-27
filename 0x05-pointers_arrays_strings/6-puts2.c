@@ -3,7 +3,7 @@
 /**
  *puts2 - print every character of a string
  *@str:the string
- *Return: void
+ *Return:void
  */
 void puts2(char *str)
 {
@@ -12,7 +12,7 @@ void puts2(char *str)
 
 	while (str[j] != '\0')
 	{
-	i++;
+	j++;
 	}
 	for (i = 0; i < j; i += 2)
 	{
