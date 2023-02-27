@@ -3,7 +3,7 @@
 /**
  *print_rev -print the reverse of string
  *@s: the string to be reversed
- *Return: nothing
+ *Return: void
  */
 void print_rev(char *s)
 {
@@ -13,7 +13,7 @@ void print_rev(char *s)
 	{
 	c++;
 	}
-	for (c -= 1; c >= 0; c--)
+	for (c = 1; c >= 0; c--)
 	{
 	_putchar(s[c]);
 	}
